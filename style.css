@@ -83,10 +83,12 @@ span{
 }
 .table tr td th{
       margin-left: 1rem;
-      border-collapse: collapse;
-
-
 }
+.table    tr {
+      border-bottom: 1px solid #3333332f;
+      padding: 10px 20px;
+      border: 1px solid black;
+    }
 table{
       width: 100%;
 
@@ -102,5 +104,9 @@ p{
 
 }
 a{
-      text-decoration: none`;
+      text-decoration: none;
+      
+}
+.amount{
+      color: brown;
 }
